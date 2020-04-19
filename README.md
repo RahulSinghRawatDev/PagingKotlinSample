@@ -11,6 +11,6 @@
 <h2>Core Elements of Paging Library includes :-</h2>
 <h3>1. PagedList </h3>
 <p><b> It is a collection that loads data in chunks knows as pages asynchronously. </b></p>
-<h3>2. DataSource <h3>
+<h3>2. DataSource </h3>
 <b><p> Data Sources is the base class for loading snapshots of data into a given page list. </b></p>
 <b><p> Data sources can be backed by the network , Database , File or any other sources </b></p>
