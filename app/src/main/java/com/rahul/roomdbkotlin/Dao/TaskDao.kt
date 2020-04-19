@@ -1,6 +1,6 @@
 package com.rahul.roomdbkotlin.Dao
 
-import androidx.lifecycle.LiveData
+import androidx.paging.DataSource
 import androidx.room.Dao
 import androidx.room.Delete
 import androidx.room.Insert
@@ -16,5 +16,5 @@ interface TaskDao{
     suspend fun deleteTask(task: Task)
 
     @Query("SELECT * FROM Task")
-    fun getAllTask() : LiveData<List<Task>>
+    fun getAllTask() : DataSource.Factory<Int,Task>
 }

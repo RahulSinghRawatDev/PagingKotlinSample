@@ -27,8 +27,9 @@ class MainActivity : AppCompatActivity() {
         recyclerview.adapter = adapter
 
         taskViewModel.allTasks.observe(this, Observer {
-            Log.i("Main","observe")
-            adapter.setWords(it)
+            Log.i("Main","observe.............."+it)
+            Log.i("Main","observ//////////e"+it.size)
+            adapter.submitList(it)
         })
 
         fab.setOnClickListener {
