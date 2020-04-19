@@ -1,5 +1,5 @@
 # PagingKotlinSample
-Sample to demonstrate how paging component works woth room db
+<p><b>Sample to demonstrate how paging component works woth room db</p></b>
 <h2>Paging</h2>
 <p><b>1.  The Paging Library helps you load and display small chunks of data at a time. Loading partial data on demand reduces usage of network bandwidth and system resources.</b></p>
 <p><b>2.  This library is majorly use to handle large amount of data with an ease thus saving user battery and bandwidth.</p></b>
@@ -9,8 +9,8 @@ Sample to demonstrate how paging component works woth room db
 <br></br>
 
 <h2>Core Elements of Paging Library includes :-</h2>
-<p></b>1. PagedList </b></p>
-<p> It is a collection that loads data in chunks knows as pages asynchronously. </p>
-<p></b>2. DataSource </b></p>
-<p> Data Sources is the base class for loading snapshots of data into a given page list. </p>
-<p> Data sources can be backed by the network , Database , File or any other sources </p>
+<h3>1. PagedList </h3>
+<p><b> It is a collection that loads data in chunks knows as pages asynchronously. </b></p>
+<h3>2. DataSource <h3>
+<b><p> Data Sources is the base class for loading snapshots of data into a given page list. </b></p>
+<b><p> Data sources can be backed by the network , Database , File or any other sources </b></p>
